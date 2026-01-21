@@ -75,6 +75,60 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
         
+        .updates {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid #e0e0e0;
+        }
+        
+        .updates h2 {
+            font-size: 1.5rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .update-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        
+        .update-item h3 {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .update-item p {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 0.8rem;
+        }
+        
+        .doc-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .doc-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .doc-link:hover {
+            background: #764ba2;
+            transform: translateX(5px);
+        }
+        
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -94,6 +148,19 @@
         <p>欢迎来到 GitSSH Toolkit 项目主页</p>
         <div class="links">
             <a href="https://github.com/gitsshtk" class="btn">GitHub</a>
+        </div>
+        
+        <div class="updates">
+            <h2>📢 博主动态</h2>
+            <div class="update-item">
+                <h3>关于中国工商银行牡丹国际借记卡的问题</h3>
+                <p>记录了与工行客服的沟通过程及相关文档，供参考。</p>
+                <div class="doc-links">
+                    <a href="ducs/关于牡丹国际借记卡问题与工行客服的沟通记录.pdf" class="doc-link" target="_blank">📄 与工行客服的沟通记录</a>
+                    <a href="ducs/牡丹国际借记卡领用合约.pdf" class="doc-link" target="_blank">📄 牡丹国际借记卡领用合约</a>
+                    <a href="ducs/中国工商银行牡丹国际借记卡章程.pdf" class="doc-link" target="_blank">📄 中国工商银行牡丹国际借记卡章程</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
